@@ -13,7 +13,7 @@ const Navbar = () => {
             <li className="font-prociono">Tentang</li>
             <li className="font-prociono">Berita & Artikel</li>
           </ul>
-          <button className="font-prociono ring-2 hover:ring-4 rounded-md px-2 py-1">Masuk</button>
+          <button className="font-prociono ring-2 ring-yellow-500 hover:ring-4 rounded-md px-2 py-1">Masuk</button>
         </div>
       </div>
     </>
