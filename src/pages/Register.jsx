@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Nav2 from "../Components/Nav2";
 
 const Register = () => {
   return (
-    <div>Register</div>
-  )
-}
+    <>
+      <Nav2 />
+    </>
+  );
+};
 
-export default Register
+export default Register;
