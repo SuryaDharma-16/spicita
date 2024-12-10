@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        prociono: ['Prociono', 'serif'],
+        lexendDeca: ['Lexend Deca', 'sans-serif'],
       }
     },
   },
