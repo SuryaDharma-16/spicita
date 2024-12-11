@@ -4,7 +4,7 @@ import Beranda from './pages/Beranda'
 const App = () => {
   return (
     <>
-      <Beranda/>
+      <Beranda />
     </>
   )
 }
