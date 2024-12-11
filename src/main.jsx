@@ -9,6 +9,7 @@ import Dasbor from './pages/Dasbor.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Tentang from './pages/Tentang.jsx'
+import ClassPage from './pages/ClassPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/about' element={<Tentang />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/learning' element={<ClassPage />} />
       </Routes>
     </Router>
   </StrictMode>
