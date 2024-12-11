@@ -22,7 +22,7 @@ const Nav1 = () => {
           </li>
         </ul>
         <button className="font-lexendDeca font-bold text-yellow-950 ring-2 ring-yellow-500 hover:ring-4 rounded-md px-2 py-1">
-          <Link to={'/login'}>Masuk</Link>
+          Masuk
         </button>
       </div>
     </div>
