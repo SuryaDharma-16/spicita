@@ -8,10 +8,10 @@ const Testi = () => {
   return (
     <>
       <section className="flex flex-col justify-center items-center h-screen">
-        <h1 className="font-lexendDeca text-h4 text-primary">Testimoni</h1>
-        <p className="font-lexendDeca text-h2 font-bold">
+        <h4 className="font-lexendDeca text-h4 text-primary">Testimoni</h4>
+        <h2 className="font-lexendDeca text-h2 font-bold">
           Apa kata para petani rempah?
-        </p>
+        </h2>
         <div className="flex flex-wrap justify-between items-start bg-accent px-24 py-12 mt-12 w-screen">
           <TestiCard
             photo={Profil1}
