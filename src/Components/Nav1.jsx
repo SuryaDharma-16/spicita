@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SiteLogo from "./logo";
+import SiteLogo from "./Subsections/Logo";
 
 const Nav1 = () => {
   return (
@@ -22,7 +22,7 @@ const Nav1 = () => {
           </li>
         </ul>
         <button className="font-lexendDeca font-bold text-yellow-950 ring-2 ring-yellow-500 hover:ring-4 rounded-md px-2 py-1">
-          <Link to={'/login'}>Masuk</Link>
+          <Link to={"/login"}>Masuk</Link>
         </button>
       </div>
     </div>

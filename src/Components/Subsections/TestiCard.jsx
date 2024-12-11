@@ -1,5 +1,5 @@
 import React from 'react'
-import Stars from '../Assets/stars.svg'
+import Stars from '../../Assets/stars.svg'
 
 const TestiCard = ({photo, comment, name}) => {
   return (
