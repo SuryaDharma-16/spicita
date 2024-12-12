@@ -12,7 +12,7 @@ const Testi = () => {
         <h2 className="font-lexendDeca text-h2 font-bold">
           Apa kata para petani rempah?
         </h2>
-        <div className="flex flex-wrap justify-between items-start bg-accent px-24 py-12 mt-12 w-screen">
+        <div className="flex flex-wrap justify-between items-start bg-accent px-24 py-12 mt-12 w-[calc(100vw-15px)]">
           <TestiCard
             photo={Profil1}
             comment={"Hasil panen jadi bagus dan diterima importir!"}
