@@ -19,7 +19,7 @@ const Review = () => {
       </div>
 
       <Button
-      link={'/'}
+      link={'/certificate'}
       label={'Klaim Sertifikat'}
       />
     </div>

@@ -10,6 +10,7 @@ import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Tentang from './pages/Tentang.jsx'
 import ClassPage from './pages/ClassPage.jsx'
+import Certificate from './pages/Certificate.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='/learning' element={<ClassPage />} />
+        <Route path='/certificate' element={<Certificate />} />
       </Routes>
     </Router>
   </StrictMode>
