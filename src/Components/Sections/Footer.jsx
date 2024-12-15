@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../Components/Subsections/Button";
-import GoogleLogo from "../Assets/google-logo.svg";
-import Instagram from "../Assets/instagram.svg";
-import Facebook from "../Assets/facebook.svg";
-import Youtube from "../Assets/youtube.svg";
-import Tiktok from "../Assets/tiktok.svg";
-import Copyright from "../Assets/copyright-regular.svg";
+import GoogleLogo from "../../Assets/google-logo.svg";
+import Instagram from "../../Assets/instagram.svg";
+import Facebook from "../../Assets/facebook.svg";
+import Youtube from "../../Assets/youtube.svg";
+import Tiktok from "../../Assets/tiktok.svg";
+import Copyright from "../../Assets/copyright-regular.svg";
+import Button from "../Subsections/Button";
 
 function Footer() {
   return (

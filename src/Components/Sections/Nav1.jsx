@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SiteLogo from "./Subsections/Logo";
+import SiteLogo from "../Subsections/Logo";
 
 const Nav1 = () => {
   return (
