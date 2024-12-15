@@ -1,10 +1,11 @@
 import React from 'react'
 import Button from '../Subsections/Button'
+import LessonOn from '../Subsections/LessonOn'
 
 const Review = () => {
   return (
     <>
-    <div className='flex flex-col px-24 mb-8'>
+    <div className='flex flex-col mb-8'>
       <h1 className='font-lexendDeca text-h4 text-yellow-950 font-bold'>Mulai Belajar</h1>
 
       <div className=''>
@@ -14,10 +15,18 @@ const Review = () => {
         <p className='font-lexendDeca text-p text-gray-500 mb-4'>Oleh Joko Susanto, Pakar Agronomi</p>
       </div>
 
-      <Button
-      link={'/certificate'}
-      label={'Klaim Sertifikat'}
-      />
+      <div className='gap-y-4'>
+        <Button
+        link={'/certificate'}
+        label={'Klaim Sertifikat'}
+        />
+        <LessonOn
+        title={'Pembelajaran 1 - Pengenalan'}
+        unit1={'Sejarah dan asal usul cengkeh'}
+        unit2={'Jenis-jenis cengkeh dan daerah penghasil utama'}
+        unit3={'Manfaat dan kegunaan cengkeh'}
+        />
+      </div>
     </div>
     </>
   )

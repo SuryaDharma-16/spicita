@@ -28,12 +28,12 @@ const Team = () => {
             <TeamCard
             image={''}
             name={'Baiq Amyza Wulandari'}
-            role={''}
+            role={'Business Development'}
             />
             <TeamCard
             image={''}
             name={'I Gede Surya Dharma'}
-            role={'Fullstack Web Developer'}
+            role={'Fullstack Web Engineer'}
             />
             <TeamCard
             image={''}
