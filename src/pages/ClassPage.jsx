@@ -9,7 +9,7 @@ const ClassPage = () => {
   return (
     <>
       <Nav1 />
-      <section className='px-24 my-8'>
+      <section className='px-24 mt-8 mb-16'>
         <div className='mt-8 mb-4'>
           <Breadcrumbs
           title={'Pengolahan Cengkeh Berkualitas Ekspor'}

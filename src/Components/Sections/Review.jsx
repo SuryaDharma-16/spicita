@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Subsections/Button'
 import LessonOn from '../Subsections/LessonOn'
+import Progress from '../Subsections/Progress'
 
 const Review = () => {
   return (
@@ -15,11 +16,16 @@ const Review = () => {
         <p className='font-lexendDeca text-p text-gray-500 mb-4'>Oleh Joko Susanto, Pakar Agronomi</p>
       </div>
 
-      <div className='gap-y-4'>
+
+      <div className='flex flex-col gap-4'>
         <Button
         link={'/certificate'}
         label={'Klaim Sertifikat'}
         />
+
+        <Progress 
+        />
+
         <LessonOn
         title={'Pembelajaran 1 - Pengenalan'}
         unit1={'Sejarah dan asal usul cengkeh'}
