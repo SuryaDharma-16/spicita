@@ -32,8 +32,9 @@ export default {
         'small': '0.875rem',
         'tiny': '0.75rem',
       },
-      filter: {
-        'white': 'brightness(0) invert(1)',
+      gap: {
+        title: '1rem',
+        p: '0.5rem',
       },
     },
   },
