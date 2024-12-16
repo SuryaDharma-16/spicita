@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Info = ({title, description}) => {
+const Info = ({title, description, size, textAlign, titleAlign}) => {
   return (
     <>
-      <div className='flex flex-col px-24 pb-8 gap-2'>
+      <div className={`flex flex-col px-24 pb-8 gap-2 ${size} ${titleAlign}`}>
         <h1 className='font-lexendDeca text-h3
          font-bold text-center text-primary'>{title}</h1>
-        <p className='font-prociono text-p text-center text-yellow-950'>{description}</p>
+        <p className={`font-prociono text-p text-yellow-950 ${textAlign} `}>{description}</p>
       </div>
     </>
   )

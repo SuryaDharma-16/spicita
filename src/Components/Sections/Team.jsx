@@ -1,5 +1,11 @@
 import React from 'react'
 import TeamCard from '../Subsections/TeamCard'
+import Vito from '../../Assets/vito.jpg'
+import Najwa from '../../Assets/najwa.jpg'
+import Ami from '../../Assets/ami.jpg'
+import Husnul from '../../Assets/husnul.jpg'
+import Surya from '../../Assets/surya.jpg'
+import Sulis from '../../Assets/sulis.jpg'
 
 const Team = () => {
   return (
@@ -9,34 +15,34 @@ const Team = () => {
         <div className='flex flex-col justify-start gap-6'>
           <div className='flex flex-wrap justify-center gap-6'>
             <TeamCard
-            image={''}
+            image={Sulis}
             name={'Sulis Susanti'}
             role={'Chief Executive Officer'}
             />
             <TeamCard
-            image={''}
+            image={Vito}
             name={'Alvito Gilbert Ginting'}
             role={'Chief Partnership Officer'}
             />
             <TeamCard
-            image={''}
+            image={Najwa}
             name={'Najwa Azkia Nasution'}
             role={'Chief Marketing Officer'}
             />
           </div>
           <div className='flex flex-wrap justify-center gap-6'>
             <TeamCard
-            image={''}
+            image={Ami}
             name={'Baiq Amyza Wulandari'}
             role={'Business Development'}
             />
             <TeamCard
-            image={''}
+            image={Surya}
             name={'I Gede Surya Dharma'}
             role={'Fullstack Web Engineer'}
             />
             <TeamCard
-            image={''}
+            image={Husnul}
             name={'Husnul Chotima'}
             role={'Content Creator'}
             />
