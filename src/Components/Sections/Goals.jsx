@@ -4,9 +4,9 @@ import Info from './Info'
 const Goals = () => {
   return (
     <>
-      <div className='flex justify-between'>
+      <div className='flex justify-between px-24'>
         <img src="" alt="visi-misi" />
-        <div>
+        <div className='flex flex-row'>
           <Info
           title={'Visi'}
           description={'Meningkatkan daya saing petani rempah Indonesia melalui edukasi, inovasi, dan pengembangan produk hasil panen yang berkelanjutan.'}
