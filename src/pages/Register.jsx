@@ -1,15 +1,16 @@
-import React from 'react';
-import Logo from '../assets/Spicita Logo.svg'
-
+import React from "react";
+import Logo from '../Assets/logo.svg'
+import Background from '../Assets/spices-image-2.jpg'
+import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen"
-    style={{ backgroundImage: `url('${Logo}')` }}>
+    style={{ backgroundImage: `url('${Background}')` }}>
     <div className="absolute inset-0 bg-primary opacity-30"></div>
       <div className="relative w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
         <div className="flex justify-center">
-          <img src={Logo} alt="Logo" className="h-10" />
+        <Link to={'/home'}><img src={Logo} alt="Logo" className="h-10" /></Link>
         </div>
         <h2 className="text-2xl font-bold text-center text-gray-900">Mulai dengan mendaftar</h2>
         <form className="space-y-4">

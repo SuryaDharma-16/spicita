@@ -1,6 +1,4 @@
 import React from "react";
-import Nav1 from "../Components/Nav1";
-import Footer from "../components/footer";
 import Facebook from "../Assets/facebook-black.svg";
 import Instagram from "../Assets/instagram-black.svg";
 import Testi from "../Components/Sections/Testi";
@@ -9,6 +7,8 @@ import Linkedin from "../Assets/linkedin.svg";
 import Stepper from "../Components/Subsections/Stepper";
 import Button from "../Components/Subsections/Button";
 import Breadcrumbs2 from "../Components/Subsections/Breadcrumbs2";
+import Nav1 from "../Components/Sections/Nav1";
+import Footer from "../Components/Sections/Footer";
 
 const Certificate = () => {
   return (
