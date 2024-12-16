@@ -7,6 +7,12 @@ import Youtube from "../../Assets/youtube.svg";
 import Tiktok from "../../Assets/tiktok.svg";
 import Copyright from "../../Assets/copyright-regular.svg";
 import Button from "../Subsections/Button";
+import Kementan from '../../Assets/Partners/Kementan.png'
+import Kemendag from '../../Assets/Partners/Kemendag.png'
+import Bkp from '../../Assets/Partners/Bkp.png'
+import Iso from '../../Assets/Partners/Iso.png'
+import Fairtrade from '../../Assets/Partners/Fairtrade.png'
+import Rainforest from '../../Assets/Partners/Rainforest.png'
 
 function Footer() {
   return (
@@ -53,15 +59,27 @@ function Footer() {
             </div>
             <div className="max-w-44">
               <p className="font-lexendDeca text-gray-50 text-xl font-bold mb-4">
-                Partner
+                Partners
               </p>
-              <div className="flex flex-wrap gap-4">
-                <img src={GoogleLogo} alt="Google logo" />
-                <img src={GoogleLogo} alt="Google logo" />
-                <img src={GoogleLogo} alt="Google logo" />
-                <img src={GoogleLogo} alt="Google logo" />
-                <img src={GoogleLogo} alt="Google logo" />
-                <img src={GoogleLogo} alt="Google logo" />
+              <div className="grid grid-cols-3 grid-rows-2 gap-4">
+                <div className='flex justify-center items-center'>
+                  <img src={Kementan} alt="Kementan" className=""/>
+                </div>
+                <div className='flex justify-center items-center'>
+                  <img src={Kemendag} alt="Kemendag" className="h-max w-32"/>
+                </div>
+                <div className='flex justify-center items-center'>
+                  <img src={Bkp} alt="Badan Karantina Pertanian" className="h-max w-8"/>
+                </div>
+                <div className='flex justify-center items-center'>
+                  <img src={Iso} alt="ISO" className="h-max w-32"/>
+                </div>
+                <div className='flex justify-center items-center'>
+                  <img src={Fairtrade} alt="Fairtrade" className="h-max max-w-8"/>
+                </div>
+                <div className='flex justify-center items-center'>
+                  <img src={Rainforest} alt="Rainforest" className="h-max max-w-8"/>
+                </div>
               </div>
             </div>
           </div>

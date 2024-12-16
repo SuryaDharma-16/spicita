@@ -6,7 +6,7 @@ const Goals = () => {
   return (
     <>
       <div className="flex justify-between px-24">
-        <img src={Image} alt="visi-misi" className="max-w-[calc(100vw/3)] rounded-lg" />
+        <img src={Image} alt="visi-misi" className="max-w-[calc(100vw/4)] rounded-lg" />
         <div className="flex flex-row">
           <Info
             title={"Visi"}

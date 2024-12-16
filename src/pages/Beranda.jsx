@@ -5,6 +5,7 @@ import Hero from "../Components/Sections/Hero";
 import Testi from "../Components/Sections/Testi";
 import Trivia from "../Components/Sections/Trivia";
 import Banner from "../Components/Sections/Banner";
+import Partner from "../Components/Sections/Partner";
 
 const Beranda = () => {
   return (
@@ -13,6 +14,7 @@ const Beranda = () => {
       <Hero />
       <Trivia />
       <Banner />
+      <Partner />
       <Testi />
       <Footer />
     </>

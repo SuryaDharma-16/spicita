@@ -1,19 +1,19 @@
 import React from 'react'
 import TeamCard from '../Subsections/TeamCard'
-import Vito from '../../Assets/vito.jpg'
-import Najwa from '../../Assets/najwa.jpg'
-import Ami from '../../Assets/ami.jpg'
-import Husnul from '../../Assets/husnul.jpg'
-import Surya from '../../Assets/surya.jpg'
-import Sulis from '../../Assets/sulis.jpg'
+import Vito from '../../Assets/Members/vito.jpg'
+import Najwa from '../../Assets/Members/najwa.jpg'
+import Ami from '../../Assets/Members/ami.jpg'
+import Husnul from '../../Assets/Members/husnul.jpg'
+import Surya from '../../Assets/Members/surya.jpg'
+import Sulis from '../../Assets/Members/sulis.jpg'
 
 const Team = () => {
   return (
     <>
-      <section className='flex flex-col justify-center px-24'>
-        <h1 className='font-lexendDeca text-h3 text-primary font-bold text-center'>Spicita Executank</h1>
-        <div className='flex flex-col justify-start gap-6'>
-          <div className='flex flex-wrap justify-center gap-6'>
+      <section className='flex flex-col justify-center px-24 gap-title'>
+        <h1 className='font-lexendDeca text-h3 text-primary font-bold text-center'>Tim Kami</h1>
+        <div className='flex flex-col justify-start gap-8'>
+          <div className='flex flex-wrap justify-center gap-8'>
             <TeamCard
             image={Sulis}
             name={'Sulis Susanti'}
@@ -30,7 +30,7 @@ const Team = () => {
             role={'Chief Marketing Officer'}
             />
           </div>
-          <div className='flex flex-wrap justify-center gap-6'>
+          <div className='flex flex-wrap justify-center gap-8'>
             <TeamCard
             image={Ami}
             name={'Baiq Amyza Wulandari'}
