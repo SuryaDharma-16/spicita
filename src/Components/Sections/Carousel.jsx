@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { NextArrow, PrevArrow } from '../../Utils/CustomArrows';
 
-const Carousel = ({ height }) => {
+const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -21,15 +21,15 @@ const Carousel = ({ height }) => {
   };
 
   return (
-    <div className={`w-full py-12 ${height}`}>
+    <div className={`w-full py-12`}>
       <Slider {...settings} className="carousel-container">
-        <div className="h-64 bg-yellow-200 flex flex-row justify-center items-center text-yellow-950 p-8 text-xl rounded-xl mx-2">
+        <div className="h-64 bg-gray-200 flex flex-row justify-center items-center text-yellow-950 p-8 text-xl rounded-xl mx-2">
           <h1 className="font-lexendDeca text-h4 font-bold">"5 Kesalahan Umum dalam Proses Ekspor Rempah dan Cara Menghindarinya"</h1>
         </div>
-        <div className="h-64 bg-yellow-200 flex justify-center items-center text-yellow-950 p-8 text-xl rounded-xl mx-2">
+        <div className="h-64 bg-gray-200 flex justify-center items-center text-yellow-950 p-8 text-xl rounded-xl mx-2">
           <h1 className="font-lexendDeca text-h4 font-bold">"Inovasi Digital di Dunia Pertanian: Spicita.id Dorong Transformasi Ekspor Rempah"</h1>
         </div>
-        <div className="h-64 bg-yellow-200 flex justify-center items-center text-yellow-950 p-8 text-xl rounded-xl mx-2">
+        <div className="h-64 bg-gray-200 flex justify-center items-center text-yellow-950 p-8 text-xl rounded-xl mx-2">
           <h1 className="font-lexendDeca text-h4 font-bold">"Kerja Sama Spicita.id dengan Koperasi Petani untuk Tingkatkan Literasi Ekspor"</h1>
         </div>
       </Slider>

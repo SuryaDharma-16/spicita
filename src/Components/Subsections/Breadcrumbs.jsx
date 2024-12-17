@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Breadcrumbs = ({ title }) => {
+const Breadcrumbs = ({title1 ,title2 }) => {
   return (
     <>
       <div className="flex flex-row gap-[4px] justify-start items-center">
         <p className="font-lexendDeca text-p text-gray-500">
-          <Link to="/dashboard">Dasbor Belajar</Link>
+          <Link to="/dashboard">{title1}</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Breadcrumbs = ({ title }) => {
           />
         </svg>
 
-        <p className="font-lexendDeca text-yellow-950 text-p">{title}</p>
+        <p className="font-lexendDeca text-yellow-950 text-p">{title2}</p>
       </div>
     </>
   );

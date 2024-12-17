@@ -12,7 +12,8 @@ const ClassPage = () => {
       <section className='px-24 mt-8 mb-16'>
         <div className='mt-8 mb-4'>
           <Breadcrumbs
-          title={'Pengolahan Cengkeh Berkualitas Ekspor'}
+          title1={'Dasbor Belajar'}
+          title2={'Pengolahan Cengkeh Berkualitas Ekspor'}
           />
         </div>
         <section className="flex flex-row justify-between">
