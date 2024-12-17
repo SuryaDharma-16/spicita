@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html", 
+    "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/slick-carousel/slick/slick.css', 
+    'node_modules/slick-carousel/slick/slick-theme.css',
+  ],
   theme: {
     extend: {
       backgroundImage: {

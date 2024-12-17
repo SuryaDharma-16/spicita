@@ -6,6 +6,7 @@ import Testi from "../Components/Sections/Testi";
 import Trivia from "../Components/Sections/Trivia";
 import Banner from "../Components/Sections/Banner";
 import Partner from "../Components/Sections/Partner";
+import Carousel from "../Components/Sections/Carousel";
 
 const Beranda = () => {
   return (
@@ -16,6 +17,9 @@ const Beranda = () => {
       <Banner />
       <Partner />
       <Testi />
+      <Carousel
+      height={'h-1/2'}
+      />
       <Footer />
     </>
   );
