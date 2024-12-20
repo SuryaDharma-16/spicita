@@ -1,5 +1,5 @@
 import React from "react";
-import SiteLogo from "../Subsections/Logo";
+import SiteLogo from "../Subsections/Logo.jsx";
 
 const Nav2 = () => {
   return (
