@@ -10,7 +10,7 @@ const RegisterPage = () => {
     <div className="absolute inset-0 bg-primary opacity-30"></div>
       <div className="relative w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
         <div className="flex justify-center">
-        <Link to={'/home'}><img src={Logo} alt="Logo" className="h-10" /></Link>
+        <Link to={'/'}><img src={Logo} alt="Logo" className="h-10" /></Link>
         </div>
         <h2 className="text-2xl font-bold text-center text-gray-900">Mulai dengan mendaftar</h2>
         <form className="space-y-4">

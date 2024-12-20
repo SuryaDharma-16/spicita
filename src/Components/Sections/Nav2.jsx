@@ -9,7 +9,7 @@ const Nav2 = () => {
         <div className="flex flex-row items-center gap-12">
           <ul className="flex justify-end gap-6">
             <li className="font-prociono">
-              <Link to={"/home"}>Beranda</Link>
+              <Link to={"/"}>Beranda</Link>
             </li>
             <li className="font-prociono">
               <Link to={"/about"}>Tentang</Link>

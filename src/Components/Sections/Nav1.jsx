@@ -9,7 +9,7 @@ const Nav1 = () => {
       <div className="flex flex-row items-center gap-12">
         <ul className="flex justify-end gap-6">
           <li className="font-prociono text-yellow-950 hover:text-secondary">
-            <Link to="/home">Beranda</Link>
+            <Link to="/">Beranda</Link>
           </li>
           <li className="font-prociono text-yellow-950 hover:text-secondary">
             <Link to="/dashboard">Dasbor Belajar</Link>
