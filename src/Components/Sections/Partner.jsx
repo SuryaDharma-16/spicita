@@ -1,14 +1,14 @@
 import React from 'react'
-import Kementan from '../../Assets/Partners/Kementan.png'
-import Kemendag from '../../Assets/Partners/Kemendag.png'
+import Kementan from '../../Assets/Partners/kementan.png'
+import Kemendag from '../../Assets/Partners/kemendag.png'
 import Bkp from '../../Assets/Partners/Bkp.png'
 import Balitro from '../../Assets/Partners/balitro.png'
-import Tanihub from '../../Assets/Partners/Tanihub.png'
+import Tanihub from '../../Assets/Partners/tanihub.png'
 import Bri from '../../Assets/Partners/Bri.png'
-import Mandiri from '../../Assets/Partners/Mandiri.png'
+import Mandiri from '../../Assets/Partners/mandiri.png'
 import Iso from '../../Assets/Partners/Iso.png'
-import Fairtrade from '../../Assets/Partners/Fairtrade.png'
-import Rainforest from '../../Assets/Partners/Rainforest.png'
+import Fairtrade from '../../Assets/Partners/fairtrade.png'
+import Rainforest from '../../Assets/Partners/rainforest.png'
 
 const Partner = () => {
   return (
