@@ -6,12 +6,12 @@ import Youtube from "../../Assets/youtube.svg";
 import Tiktok from "../../Assets/tiktok.svg";
 import Copyright from "../../Assets/copyright-regular.svg";
 import Button from "../Subsections/Button";
-import Kementan from '../../Assets/Partners/Kementan.png';
-import Kemendag from '../../Assets/Partners/Kemendag.png';
-import Bkp from '../../Assets/Partners/Bkp.png';
-import Iso from '../../Assets/Partners/Iso.png';
-import Fairtrade from '../../Assets/Partners/Fairtrade.png';
-import Rainforest from '../../Assets/Partners/Rainforest.png';
+import Kementan from '../../Assets/Partners/kementan.png';
+import Kemendag from '../../Assets/Partners/kemendag.png';
+import Bkp from '../../Assets/Partners/bkp.png';
+import Iso from '../../Assets/Partners/iso.png';
+import Fairtrade from '../../Assets/Partners/fairtrade.png';
+import Rainforest from '../../Assets/Partners/rainforest.png';
 
 function Footer() {
   return (
