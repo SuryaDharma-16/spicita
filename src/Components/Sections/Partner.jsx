@@ -6,7 +6,7 @@ import Balitro from '../../Assets/Partners/balitro.png'
 import Tanihub from '../../Assets/Partners/tanihub.png'
 import Bri from '../../Assets/Partners/bri.png'
 import Mandiri from '../../Assets/Partners/mandiri.png'
-import Iso from '../../Assets/Partners/Iso.png'
+import Iso from '../../Assets/Partners/iso.png'
 import Fairtrade from '../../Assets/Partners/fairtrade.png'
 import Rainforest from '../../Assets/Partners/rainforest.png'
 
